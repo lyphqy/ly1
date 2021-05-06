@@ -41,7 +41,7 @@ public class ArrayTest {
     @Test//数值格式化
     public void arrayCompareTestNormal006() {
         int array1[] = {00001, 0033, 000};
-        int array2[] = {0, 0033, 00001};
+        int array2[] = {00, 0033, 00001};
         Assert.assertTrue(new Array().arrayCompare(array1, array2));
     }
 
